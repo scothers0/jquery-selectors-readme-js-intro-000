@@ -4,9 +4,13 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $("img:last").get;
+  return $("img:last").get();
 }
 
 function ninjaBabySelector(){
   return $('#baby-ninja').get();
+}
+
+function divSelector(){
+  return $('.pics').get();
 }
